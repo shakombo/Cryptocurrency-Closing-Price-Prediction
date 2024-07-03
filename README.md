@@ -1,4 +1,5 @@
 **Description**
+
 After the boom and bust of cryptocurrencies’ prices in recent years, cryptocurrencies have been increasingly regarded as an investment asset. Because of their highly volatile nature, there is a need for good predictions on which to base investment decisions. Different existing studies have leveraged machine learning for more accurate cryptocurrency price prediction. We are interested in applying different modeling techniques to samples with different data structures (qualitative and quantitative data) and dimensional features to achieve an optimization in price prediction.
 
 Using the trading time series of a cryptocurrency’s price, in addition to a set of qualitative features (news, social impact, Twitter, Reddit, social media sentiment analysis), we would like to build a model that forecasts a cryptocurrency’s price. In this challenge, we are focusing on the trading time series and how we can optimize currency forecasting. We will predict future cryptocurrency prices.
@@ -202,5 +203,23 @@ price_btc: Exchange rate with another coin
 market_cap_global: Total available supply multiplied by the current price in USD
 percent_change_24h: Percent change in price since 24 hours ago
 
+**DESCRIPTION
+FILES**
+Contains the target. This is the dataset that you will use to train your model.
+
+Train.csv
+3.3 MB
+Resembles Train.csv but without the target-related columns. This is the dataset on which you will apply your model to.
+
+Test.csv
+1.6 MB
+Shows the submission format for this competition, with the ‘id’ column mirroring that of Test.csv and the close column containing your predictions. The order of the rows does not matter, but the names of the id must be correct.
+
+SampleSubmission.csv
+72.9 KB
+This notebook will help you make your first submission to this competition. If when you click download it opens a different tab, ctrl-S and it will download for you.
+
+StarterNotebook.ipynb
+163.2 KB
 
 https://zindi.africa/competitions/cryptocurrency-closing-price-prediction/data
